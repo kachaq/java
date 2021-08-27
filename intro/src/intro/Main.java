@@ -1,7 +1,5 @@
 package intro;
 
-import java.util.Iterator;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,13 +8,6 @@ public class Main {
 		String internetSubeButonu = "Internet Subesi";
 		double dolarDun = 8.18;
 		double dolarBugun = 8.80;
-		int vade = 36;
-		boolean dustumu = false;
-		
-		
-		
-		
-		
 		System.out.println(internetSubeButonu);
 		
 		

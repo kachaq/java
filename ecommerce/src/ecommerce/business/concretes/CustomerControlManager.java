@@ -16,6 +16,10 @@ public class CustomerControlManager implements CustomerControlService{
 			System.out.println("Name section can not be empty! ");
 			return false;
 		}
+		else if(customer.getFirstName().length() < 2) {
+			System.out.println("Your name should atleast 2 charcter! ");
+			return false;
+		}
 		return true;
 	}
 
@@ -23,6 +27,10 @@ public class CustomerControlManager implements CustomerControlService{
 	public boolean controlLastName(Customer customer) {
 		if(customer.getLastName().isEmpty()) {
 			System.out.println("Last name section can not be empty! ");
+			return false;
+		}
+		else if(customer.getLastName().length() < 2) {
+			System.out.println("Your last name should atleast 2 charcter! ");
 			return false;
 		}
 		return true;

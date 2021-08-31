@@ -38,6 +38,7 @@ verificationService.verifyEmail(customer.getEmail());
 		else {
 			System.out.println("Some information is missing or not valid. Please check all fields and try again. ");
 		}
+		return;
 		
 	}
 

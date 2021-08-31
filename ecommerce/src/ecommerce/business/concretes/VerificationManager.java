@@ -18,10 +18,10 @@ public class VerificationManager implements VerificationService {
 	@Override
 	public void verifyEmail(String email) {
 		emailList.add(email);
-		System.out.println("Verify is succed! ");
+		System.out.println("Email can be use! ");
 		
 	}
-
+	
 	@Override
 	public boolean controlVerifyAccount(String email) {
 		if(emailList.contains(email)) {
